@@ -1,0 +1,26 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/GlobalDefines.js",
+        "src/scene/SceneDefines.js",
+        "src/scene/WellComeScene.js",
+        "src/scene/GamePlayScene.js",
+        "src/GameFollowManager.js",
+        "src/player/PlayerDefines.js",
+        "src/player/Player.js",
+        "src/scene/oop/BackGround.js",
+        "src/scene/oop/MovingObject.js"
+
+    ]
+}
