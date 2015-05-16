@@ -8,6 +8,7 @@ var tqtp = tqtp || {};
  */
 tqtp.player = null;
 tqtp.listPos = null;
+tqtp.flagtouch = true;
 
 /**
  * @static

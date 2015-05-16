@@ -23,7 +23,8 @@
         "src/scene/oop/BackGround.js",
         "src/scene/oop/MovingObject.js",
         "src/scene/oop/Fish.js",
-        "src/scene/oop/Baket.js"
+        "src/scene/oop/Baket.js",
+        "src/scene/oop/Trash.js"
 
     ]
 }

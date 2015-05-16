@@ -2,7 +2,7 @@
  * Created by TQTP on 5/17/2015.
  */
 
-var DURATION_BAKET = 0.5;
+var DURATION_BAKET = 0.2;
 var Baket = cc.Node.extend({
         index: -1,
         spr:null,
@@ -15,7 +15,7 @@ var Baket = cc.Node.extend({
         },
 
         swaptoindex: function (index) {
-            var moveTo = cc.moveTo(DURATION_BAKET, tqtp.listPos[index]).easing(cc.easeOut(1.5));
+            var moveTo = cc.moveTo(DURATION_BAKET, tqtp.listPos[index]).easing(cc.easeBackOut());
             this.runAction(cc.sequence(moveTo, cc.callFunc(function () {
                 this.index = index;
             }.bind(this))));
