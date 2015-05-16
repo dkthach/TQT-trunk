@@ -13,6 +13,7 @@
     "jsList" : [
         "src/resource.js",
         "src/GlobalDefines.js",
+        "src/util/Utils.js",
         "src/scene/SceneDefines.js",
         "src/scene/WellComeScene.js",
         "src/scene/GamePlayScene.js",
@@ -20,7 +21,9 @@
         "src/player/PlayerDefines.js",
         "src/player/Player.js",
         "src/scene/oop/BackGround.js",
-        "src/scene/oop/MovingObject.js"
+        "src/scene/oop/MovingObject.js",
+        "src/scene/oop/Fish.js",
+        "src/scene/oop/Baket.js"
 
     ]
 }

@@ -1,0 +1,692 @@
+{
+  "ID": "c87f4feb-919e-403b-95d8-7bf0280d7ab2",
+  "Version": "2.2.6.0",
+  "Name": "LayerMap",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 3,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "gui/Sea-Background.jpg",
+              "Plist": ""
+            },
+            "Scale9Width": 600,
+            "Scale9Height": 600,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0491,
+              "Y": 479.9999
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5001,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": 0.0491,
+            "RightMargin": -0.0491,
+            "TopMargin": 0.0001,
+            "BottomMargin": -0.0001,
+            "Tag": 6,
+            "ActionTag": 1508357100,
+            "Size": {
+              "X": 640.0,
+              "Y": 960.0
+            },
+            "Name": "bgr",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "island-icon-4.png",
+              "Plist": "gui/iland_ic.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 64,
+            "Scale9Height": 79,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 84.0785,
+              "Y": 778.968
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1314,
+              "Y": 0.8114
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.1354
+            },
+            "LeftMargin": 24.0785,
+            "RightMargin": 495.9215,
+            "TopMargin": 116.032,
+            "BottomMargin": 713.968,
+            "Tag": 13,
+            "ActionTag": -1791747215,
+            "Size": {
+              "X": 120.0,
+              "Y": 130.0
+            },
+            "Name": "btn_island_0",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "island-icon-10.png",
+              "Plist": "gui/iland_ic.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 98,
+            "Scale9Height": 106,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 237.7862,
+              "Y": 771.6162
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3715,
+              "Y": 0.8038
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.1354
+            },
+            "LeftMargin": 177.7862,
+            "RightMargin": 342.2138,
+            "TopMargin": 123.3838,
+            "BottomMargin": 706.6162,
+            "Tag": 8,
+            "ActionTag": 1503140058,
+            "Size": {
+              "X": 120.0,
+              "Y": 130.0
+            },
+            "Name": "btn_island_1",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "island-icon-3.png",
+              "Plist": "gui/iland_ic.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 60,
+            "Scale9Height": 75,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 394.1427,
+              "Y": 769.9438
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6158,
+              "Y": 0.802
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.1354
+            },
+            "LeftMargin": 334.1427,
+            "RightMargin": 185.8573,
+            "TopMargin": 125.0562,
+            "BottomMargin": 704.9438,
+            "Tag": 7,
+            "ActionTag": -702482708,
+            "Size": {
+              "X": 120.0,
+              "Y": 130.0
+            },
+            "Name": "btn_island_2",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "island-icon-7.png",
+              "Plist": "gui/iland_ic.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 97,
+            "Scale9Height": 107,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 544.5322,
+              "Y": 765.0526
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8508,
+              "Y": 0.7969
+            },
+            "PreSize": {
+              "X": 0.1984,
+              "Y": 0.1344
+            },
+            "LeftMargin": 481.0322,
+            "RightMargin": 31.9678,
+            "TopMargin": 130.4474,
+            "BottomMargin": 700.5526,
+            "Tag": 14,
+            "ActionTag": -317682718,
+            "Size": {
+              "X": 127.0,
+              "Y": 129.0
+            },
+            "Name": "btn_island_4",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "island-icon-8.png",
+              "Plist": "gui/iland_ic.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 99,
+            "Scale9Height": 106,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 92.8076,
+              "Y": 600.3829
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.145,
+              "Y": 0.6254
+            },
+            "PreSize": {
+              "X": 0.2016,
+              "Y": 0.1354
+            },
+            "LeftMargin": 28.3076,
+            "RightMargin": 482.6924,
+            "TopMargin": 294.6171,
+            "BottomMargin": 535.3829,
+            "Tag": 16,
+            "ActionTag": 820454517,
+            "Size": {
+              "X": 129.0,
+              "Y": 130.0
+            },
+            "Name": "btn_island_5",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "island-icon-5.png",
+              "Plist": "gui/iland_ic.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 60,
+            "Scale9Height": 56,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 255.7503,
+              "Y": 593.2717
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3996,
+              "Y": 0.618
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.1146
+            },
+            "LeftMargin": 195.7503,
+            "RightMargin": 324.2497,
+            "TopMargin": 311.7283,
+            "BottomMargin": 538.2717,
+            "Tag": 12,
+            "ActionTag": -220285352,
+            "Size": {
+              "X": 120.0,
+              "Y": 110.0
+            },
+            "Name": "btn_island_6",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "island-icon-6.png",
+              "Plist": "gui/iland_ic.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 171,
+            "Scale9Height": 168,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 403.1769,
+              "Y": 598.3706
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.63,
+              "Y": 0.6233
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.1354
+            },
+            "LeftMargin": 343.1769,
+            "RightMargin": 176.8231,
+            "TopMargin": 296.6294,
+            "BottomMargin": 533.3706,
+            "Tag": 11,
+            "ActionTag": -14922074,
+            "Size": {
+              "X": 120.0,
+              "Y": 130.0
+            },
+            "Name": "btn_island_7",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "island-icon-1.png",
+              "Plist": "gui/iland_ic.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 68,
+            "Scale9Height": 90,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 537.8016,
+              "Y": 589.3367
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8403,
+              "Y": 0.6139
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.1354
+            },
+            "LeftMargin": 477.8016,
+            "RightMargin": 42.1984,
+            "TopMargin": 305.6633,
+            "BottomMargin": 524.3367,
+            "Tag": 9,
+            "ActionTag": -1789075329,
+            "Size": {
+              "X": 120.0,
+              "Y": 130.0
+            },
+            "Name": "btn_island_8",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "island-icon-9.png",
+              "Plist": "gui/iland_ic.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 226,
+            "Scale9Height": 234,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 90.3135,
+              "Y": 429.6428
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1411,
+              "Y": 0.4475
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.1354
+            },
+            "LeftMargin": 30.3135,
+            "RightMargin": 489.6865,
+            "TopMargin": 465.3572,
+            "BottomMargin": 364.6428,
+            "Tag": 17,
+            "ActionTag": -1252676043,
+            "Size": {
+              "X": 120.0,
+              "Y": 130.0
+            },
+            "Name": "btn_island_9",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "island-icon-2.png",
+              "Plist": "gui/iland_ic.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 67,
+            "Scale9Height": 57,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 242.6194,
+              "Y": 429.7705
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3791,
+              "Y": 0.4477
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.1146
+            },
+            "LeftMargin": 182.6194,
+            "RightMargin": 337.3806,
+            "TopMargin": 475.2295,
+            "BottomMargin": 374.7705,
+            "Tag": 10,
+            "ActionTag": -508088117,
+            "Size": {
+              "X": 120.0,
+              "Y": 110.0
+            },
+            "Name": "btn_island_10",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 960.0
+        },
+        "Name": "layermap",
+        "ctype": "LayerObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}

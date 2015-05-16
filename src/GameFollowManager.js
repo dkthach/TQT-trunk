@@ -7,6 +7,7 @@ var tqtp = tqtp || {};
  * @type {Player}
  */
 tqtp.player = null;
+tqtp.listPos = null;
 
 /**
  * @static
@@ -25,16 +26,22 @@ tqtp.gameFollowManager = {
     wellComeScenelistener: null,
     init: function () {
         tqtp.player = new Player();
+        tqtp.listPos = [];
         this.wellComeScenelistener = this.wellComeSceneListenerIpl();
     },
 
     reloadResOpenFirstScene: function () {
         //retain winsize
         tqtp.winSize = cc.winSize;
+        var maginw = tqtp.winSize.width / 5;
+        var maginh = tqtp.winSize.width / 5;
+        tqtp.listPos.push(cc.p(maginw, maginh));
+        tqtp.listPos.push(cc.p(tqtp.winSize.width / 2, maginh));
+        tqtp.listPos.push(cc.p(tqtp.winSize.width - maginw, maginh));
         var scene = WellComeLayer.scene(this.wellComeScenelistener);
         //load resources
         cc.LoaderScene.preload(g_resources, function () {
-            cc.director.runScene(scene);
+            cc.director.runScene(GamePlayLayer.scene());
         }, this);
     },
 

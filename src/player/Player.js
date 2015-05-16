@@ -3,9 +3,9 @@
  */
 var Player = cc.Class.extend({
     gold: 0,
-    clearNers: null,
-
+    listcurrentIndexbBaket: [0, 1, 2],
     ctor: function () {
+
     },
 
     addGold: function (value) {
@@ -14,6 +14,18 @@ var Player = cc.Class.extend({
 
     getGold: function () {
 
+    },
+
+    swapLeft: function () {
+        var temp = this.listcurrentIndexbBaket[0];
+        this.listcurrentIndexbBaket[0] = this.listcurrentIndexbBaket[1];
+        this.listcurrentIndexbBaket[1] = temp;
+    },
+    swapRight: function () {
+        var temp = this.listcurrentIndexbBaket[2];
+        this.listcurrentIndexbBaket[2] = this.listcurrentIndexbBaket[1];
+        this.listcurrentIndexbBaket[1] = temp;
     }
+
 
 });
